@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "postgres",
   "password": "secret",
-  "database": "simple-todo-server",
+  "database": "simple-todo",
   "synchronize": true,
   "logging": false,
   "entities": ["src/entities/*"],
