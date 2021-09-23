@@ -10,12 +10,11 @@ export class User {
   @Length(3, 50)
   name: string;
 
-  @Column({ length: 20 })
-  @Length(7, 20)
+  @Column({ unique: true })
+  @Length(7, 50)
   @IsEmail()
   email: string;
 
-  @Column({ length: 20 })
-  @Length(8, 12)
+  @Column()
   password: string;
 }
